@@ -1,0 +1,57 @@
+.about-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 30px ;
+   }
+    .about-area h2 {
+      font-weight: 500;
+      margin-bottom: 50px;
+      font-size: 40px; }
+      @media only screen and (max-width: 767px) {
+        .about-area h2 {
+          font-size: 30px; } }
+    .about-area p {
+      font-weight: 500; }
+  
+  .single-cool-fact {
+    position: relative;
+    z-index: 1; }
+  
+  .single-team-member {
+    position: relative;
+    z-index: 1; }
+    .single-team-member .team-info {
+      padding: 50px 0;
+      text-align: center; }
+      .single-team-member .team-info h5 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        color: #393939; }
+      .single-team-member .team-info h6 {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #656565; }
+
+        
+/* :: 11.0 Cool Facts */
+.single-cool-fact {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 80px; }
+    .single-cool-fact h3 {
+      font-size: 60px;
+      margin-bottom: 0;
+      color: #a5a5a5;
+      font-weight: 700;
+      margin-right: 15px; }
+    .single-cool-fact .cf-text {
+      text-align: right; }
+      .single-cool-fact .cf-text h6 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        color: #393939; }
+      .single-cool-fact .cf-text span {
+        font-size: 12px;
+        color: #656565; }
+  
